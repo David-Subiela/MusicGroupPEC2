@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<include src="head.html"></include>
+
+<body class="imagen-global">
+    <div class="flecha-arriba">
+        <img src="/media/header_footer/flecha.png" alt="flecha" />
+    </div>
+    <header>
+        <nav class="encabezado">
+            <include src="header.html"></include>
+            <ul class="lista-encab">
+                <li class="dropdown">
+                    <a href="/src/categoria.html">Categoría</a>
+                    <div class="dropdown-content">
+                        <a href="/src/detalle_banda.html" class="no-underline">La banda</a>
+                        <a href="/src/detalle_musica.html" class="no-underline">Música</a>
+                        <a href="/src/detalle_noticias.html" class="no-underline">Noticias</a>
+                        <a href="/src/detalle_actualidad.html" class="no-underline">Actualidad</a>
+                        <a href="/src/detalle_letras.html" class="no-underline">Letras</a>
+                        <a href="/src/detalle_conciertos.html" class="no-underline">Conciertos</a>
+                    </div>
+                </li>
+                <li><a href="/src/presentacion.html">Presentación</a></li>
+                <li><a href="/src/enlaces.html">Enlaces</a></li>
+            </ul>
+            <!-------------------------------- MENU HAMBURGUESA -------------------------------------->
+            <div class="menuppal">
+                <ul class="lista-encab-hambur">
+                    <li class="dropdown">
+                        <a href="/src/categoria.html">Categoría</a>
+                        <div class="dropdown-content">
+                            <a href="/src/detalle_banda.html" class="no-underline">La banda</a>
+                            <a href="/src/detalle_musica.html" class="no-underline">Música</a>
+                            <a href="/src/detalle_noticias.html" class="no-underline">Noticias</a>
+                            <a href="/src/detalle_actualidad.html" class="no-underline">Actualidad</a>
+                            <a href="/src/detalle_letras.html" class="no-underline">Letras</a>
+                            <a href="/src/detalle_conciertos.html" class="no-underline">Conciertos</a>
+                        </div>
+                    </li>
+                    <li><a href="/src/presentacion.html">Presentación</a></li>
+                    <li><a href="/src/enlaces.html">Enlaces</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carrusel-contenido">
+            <div id="carrusel-caja">
+                <div class="carrusel-elemento">
+                    <div class="imagen-recortada-first">
+                        <img class="imagenes" src="/media/slider/queen.jpg" alt="Queen concierto">
+                    </div>
+                </div>
+                <div class="carrusel-elemento">
+                    <div class="imagen-recortada-second">
+                        <img class="imagenes" src="/media/slider/queen-50-canciones.jpg" alt="Queen sólo">
+                    </div>
+                </div>
+                <div class="carrusel-elemento">
+                    <div class="imagen-recortada-third">
+                        <img class="imagenes" src="/media/slider/Queen_Night.jpg" alt="Queen oscura">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article>
+            <section class="title-section">
+                <h1>Siente el pulso del rock.<br>This is <span class="queen-may">Queen</span>!</h1>
+            </section>
+        </article>
+    </main>
+    <include src="footer.html"></include>
+    <div class="chaser">
+        <ul class="lista-encab">
+            <li><a href="/src/categoria.html">Categoría</a></li>
+            <li><a href="/src/presentacion.html">Presentación</a></li>
+            <li><a href="/src/enlaces.html">Enlaces</a></li>
+        </ul>
+    </div>
+    <script src="/src/app.js"></script>
+</body>
+
+</html>

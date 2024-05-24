@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<include src="head.html"></include>
+
+
+<body class="imagen-global">
+    <div class="flecha-arriba">
+        <img src="/media/header_footer/flecha.png" alt="flecha" />
+    </div>
+    <header>
+        <nav class="encabezado">
+            <include src="header.html"></include>
+            <ul class="lista-encab">
+                <li><a href="/src/index.html">Inicio</a></li>
+                <li><a href="/src/presentacion.html">Presentación</a></li>
+                <li><a href="/src/enlaces.html">Enlaces</a></li>
+            </ul>
+            <!-------------------------------- MENU HAMBURGUESA -------------------------------------->
+            <div class="menuppal">
+                <ul class="lista-encab-hambur">
+                    <li><a href="/src/index.html">Inicio</a></li>
+                    <li><a href="/src/presentacion.html">Presentación</a></li>
+                    <li><a href="/src/enlaces.html">Enlaces</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="title-category">Categoría</h1>
+        <section>
+            <div class="noot-1">
+                &#9835; &#9833;
+            </div>
+            <ul class="categoria-enlaces">
+                <li>
+                    <a href="/src/detalle_banda.html">
+                        <img src="/media/categoria/banda-completa.jpg"
+                            srcset="/media/categoria/banda-completa-2x.jpg 2x, /media/categoria/banda-completa-4x.jpg 4x"
+                            alt="La banda">
+                        <span class="imagen-titulo">La Banda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/src/detalle_musica.html">
+                        <img src="/media/categoria/albumes.png"
+                            srcset="/media/categoria/albumes-2x.png 2x, /media/categoria/albumes-4x.png 4x"
+                            alt="Álbumes">
+                        <span class="imagen-titulo">Música</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/src/detalle_noticias.html">
+                        <img class="categoria-noticias" src="/media/categoria/noticias-queen.jpg"
+                            srcset="/media/categoria/noticias-queen-2x.jpg 2x, /media/categoria/noticias-queen-4x.jpg 4x"
+                            alt="Notícias">
+                        <span class="imagen-titulo">Notícias</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/src/detalle_actualidad.html">
+                        <img class="categoria-noticias" src="/media/categoria/logo.jpg"
+                            srcset="/media/categoria/logo-2x.jpg 2x, /media/categoria/logo-4x.jpg 4x" alt="Logo Queen">
+                        <span class="imagen-titulo">Actualidad</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/src/detalle_letras.html">
+                        <img class="categoria-noticias" src="/media/categoria/BR_lyrics.png"
+                            srcset="/media/categoria/BR_lyrics-2x.png 2x, /media/categoria/BR_lyrics-4x.png 4x"
+                            alt="Letras">
+                        <span class="imagen-titulo">Letras</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/src/detalle_conciertos.html">
+                        <img class="categoria-noticias" src="/media/categoria/freddie_mercury.jpg"
+                            srcset="/media/categoria/freddie_mercury-2x.jpg 2x, /media/categoria/freddie_mercury-4x.jpg 4x"
+                            alt="Conciertos">
+                        <span class="imagen-titulo">Conciertos</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <include src="footer.html"></include>
+    <div class="chaser">
+        <ul class="lista-encab">
+            <li><a href="/src/index.html">Inicio</a></li>
+            <li><a href="/src/presentacion.html">Presentación</a></li>
+            <li><a href="/src/enlaces.html">Enlaces</a></li>
+        </ul>
+    </div>
+    <script src="/src/app.js"></script>
+</body>
+
+
+</html>
