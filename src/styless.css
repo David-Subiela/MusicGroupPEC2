@@ -595,7 +595,7 @@ iframe {
   background-color: var(--bg-color);
   border-radius: 14px;
 }
-.presentacion-partes-lista h3 a {
+.presentacion-partes-lista h2 a {
   color: var(--black);
   padding: 10px;
 }
@@ -782,9 +782,10 @@ iframe {
 }
 
 .artist-details h2 {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   font-size: 4.4vw;
-  position: absolute;
+  /*  position: absolute; */
   padding-left: 2.1em;
 }
 
@@ -809,6 +810,12 @@ iframe {
   font-size: 18px;
   line-height: 1.5;
   color: #555;
+}
+
+@media (width >= 1425px) {
+  .artist-details h2 {
+    padding-left: 5.1em;
+  }
 }
 
 @media (width < 585px) {
@@ -882,7 +889,7 @@ div.aims-img {
 div.aims-text {
   width: 70%;
 }
-.aims-text h3 {
+.aims-text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -922,7 +929,7 @@ div.aims-text p {
     order: 0;
     transform: rotate(0deg);
   }
-  .aims-text h3 {
+  .aims-text h2 {
     font-size: 1.7rem;
   }
   div.aims-text p {
@@ -962,7 +969,7 @@ div.aims-text p {
   position: relative;
 }
 .copyright {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   text-align: right;
 }
 .card-content {
@@ -971,7 +978,7 @@ div.aims-text p {
 .meta-data {
   margin-bottom: 2px;
   font-size: 0.9rem;
-  color: grey;
+  color: black;
 }
 .card-content h2 {
   margin-bottom: 0.5rem;
@@ -1156,7 +1163,7 @@ section:last-child {
   object-fit: cover;
   aspect-ratio: 1/1;
 }
-.concierto h3,
+.concierto h2,
 .concierto p {
   margin: 10px;
 }
