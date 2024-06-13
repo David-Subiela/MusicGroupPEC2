@@ -62,9 +62,9 @@ section.logo-section {
   text-align: center;
   margin: 15px;
 }
-.logo-imagen img {
+/* .logo-imagen img {
   width: 15em;
-}
+} */
 .lista-encab {
   display: flex;
   flex-direction: row;
