@@ -1056,6 +1056,7 @@ a.more::after {
 }
 .section p {
   color: #666666;
+  font-size: 1.25em;
 }
 section:last-child {
   padding-bottom: 2rem !important;
@@ -1064,6 +1065,7 @@ section:last-child {
 .intro-text {
   margin-bottom: 20px;
   line-height: 1.5;
+  font-size: 1.25em;
 }
 
 .intro-text strong {
