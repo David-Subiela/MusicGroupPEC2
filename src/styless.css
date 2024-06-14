@@ -588,6 +588,7 @@ iframe {
 .iframe-center img {
   max-width: 100%;
   height: auto;
+  margin-bottom: 30px;
 }
 
 .presentacion-partes {

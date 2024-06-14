@@ -15,7 +15,11 @@
     <main class="container">
         <div class="detalles-category">
             <a href="/src/categoria.html">
-                <img src="/media/categoria/logo.jpg" alt="Actualidad" loading="lazy">
+                <picture>
+                    <source srcset="/media/categoria/logo.jpg?as=avif" type="image/avif" />
+                    <source srcset="/media/categoria/logo.jpg?as=webp" type="image/webp" />
+                    <img src="/media/categoria/logo.jpg" alt="Actualidad" loading="lazy" width="30" height="100">
+                </picture>
             </a>
             <h1 class="title-category-new">De Freddie Mercury a la Actualidad</h1>
         </div>
@@ -50,10 +54,18 @@
         </p>
         <section>
             <p class="iframe-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ujvygsXWkzY"
+                <a href="https://www.youtube.com/embed/ujvygsXWkzY" target="_blank">
+                    <picture>
+                        <source srcset="/media/detalles/queen-history.png?as=webp" type="image/webp" />
+                        <source srcset="/media/detalles/queen-history.png?as=avif" type="image/avif" />
+                        <img src="/media/detalles/queen-history.png" alt="Queen: La historia mejor contada"
+                            width="750px" height="210px" loading="lazy" />
+                    </picture>
+                </a>
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ujvygsXWkzY"
                     title="Queen: La historia mejor contada"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; captions"
-                    allowfullscreen loading="lazy"></iframe>
+                    allowfullscreen loading="lazy"></iframe> -->
             </p>
         </section>
         <section class="actualidad-section">
@@ -96,9 +108,16 @@
                     su legado perdura como uno de los más influyentes y queridos en la historia del rock.</p>
             </div>
             <div class="imag-class">
-                <img src="/media/categoria/queen_atraves_tiempo.jpg"
-                    srcset="/media/categoria/queen_atraves_tiempo-2x.jpg 2x, /media/categoria/queen_atraves_tiempo-4x.jpg 4x"
-                    alt="Letras" loading="lazy">
+                <picture>
+                    <source srcset="/media/categoria/queen_atraves_tiempo-2x.jpg?as=webp" type="image/webp" />
+                    <source srcset="/media/categoria/queen_atraves_tiempo-4x.jpg?as=webp" type="image/webp" />
+                    <source srcset="/media/categoria/queen_atraves_tiempo-2x.jpg?as=avif" type="image/avif" />
+                    <source srcset="/media/categoria/queen_atraves_tiempo-4x.jpg?as=avif" type="image/avif" />
+                    <img src="/media/categoria/queen_atraves_tiempo.jpg"
+                        srcset="/media/categoria/queen_atraves_tiempo-2x.jpg 2x, /media/categoria/queen_atraves_tiempo-4x.jpg 4x"
+                        alt="Letras" loading="lazy" width="650px" height="200px">
+                </picture>
+
             </div>
         </section>
     </main>
