@@ -42,10 +42,36 @@
                 rendimos homenaje a su impacto duradero en la música y la cultura.
             </p>
             <p class="iframe-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fP-0enJ-3S0"
+            <div id="youtube-player"></div>
+            <script>
+                function loadYoutubePlayer() {
+                    // Crea el elemento script y agrega la URL de la API
+                    var tag = document.createElement('script');
+                    tag.src = "https://www.youtube.com/iframe_api";
+
+                    // Inserta el script en el DOM
+                    var firstScriptTag = document.getElementsByTagName('script')[0];
+                    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                    // Inicializa el reproductor cuando la API esté lista
+                    window.onYouTubeIframeAPIReady = function () {
+                        new YT.Player('youtube-player', {
+                            height: '390',
+                            width: '640',
+                            videoId: 'fP-0enJ-3S0',
+                            playerVars: {
+                                'playsinline': 1
+                            }
+                        });
+                    };
+                }
+                // Llama a la función cuando el usuario interactúe con el reproductor
+                document.getElementById('youtube-player').addEventListener('click', loadYoutubePlayer);
+            </script>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/fP-0enJ-3S0"
                     title="Entrevista a FREDDIE MERCURY y QUEEN en 1986 | Informe semanal | Archivo RTVE"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen loading="lazy"></iframe>
+                    allowfullscreen loading="lazy"></iframe> -->
             </p>
             <p class="intro-presentacion"> El sitio está estructurado en tres secciones principales, que encontramos en
                 el <a href="/src/index.html">inicio</a>.
