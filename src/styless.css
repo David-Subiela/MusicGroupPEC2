@@ -585,6 +585,10 @@ iframe {
 .iframe-center {
   text-align: center;
 }
+.iframe-center img {
+  max-width: 100%;
+  height: auto;
+}
 
 .presentacion-partes {
   display: grid;
