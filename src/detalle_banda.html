@@ -15,7 +15,13 @@
     <main class="container">
         <div class="detalles-category">
             <a href="/src/categoria.html">
-                <img src="/media/categoria/banda-completa.jpg" alt="La banda" loading="lazy" width="30" height="100">
+                <picture>
+                    <source srcset="/media/categoria/banda-completa.jpg?as=avif" type="image/avif" />
+                    <source srcset="/media/categoria/banda-completa.jpg?as=webp" type="image/webp" />
+                    <img src="/media/categoria/banda-completa.jpg" alt="La banda" loading="lazy" width="30"
+                        height="100">
+                </picture>
+
             </a>
             <h1 class="title-category-new">La Banda</h1>
         </div>
