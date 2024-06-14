@@ -16,7 +16,12 @@
         <section>
             <div class="detalles-category">
                 <a href="/src/categoria.html">
-                    <img src="/media/categoria/albumes.png" alt="Conciertos" loading="lazy">
+                    <picture>
+                        <source srcset="/media/categoria/albumes.png?as=avif" type="image/avif" />
+                        <source srcset="/media/categoria/albumes.png?as=webp" type="image/webp" />
+                        <img class="categoria-noticias" src="/media/categoria/albumes.png" alt="Conciertos"
+                            loading="lazy" width="30" height="100">
+                    </picture>
                 </a>
                 <h1 class="title-category-new">Historia de los Conciertos</h1>
             </div>
