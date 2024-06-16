@@ -540,7 +540,7 @@ img.svg-image {
     text-align: center;
   }
   .imagen-titulo {
-    font-size: 1.8em;
+    font-size: 1.4em;
     padding: 0.4em 0.4em;
   }
   .categoria-enlaces img {
@@ -568,11 +568,11 @@ img.svg-image {
 /***************************/
 
 .intro-presentacion {
-  font-size: 1.2em;
+  font-size: 1.25em;
   margin-bottom: 1.8em;
 }
 .intro-intro {
-  font-size: 1.29em;
+  font-size: 1.3em;
 }
 
 iframe {
@@ -607,6 +607,7 @@ iframe {
 }
 .presentacion-partes-lista p {
   padding: 10px;
+  font-size: 1.25em;
 }
 .presentacion-partes-lista:hover {
   border-radius: 8px;
