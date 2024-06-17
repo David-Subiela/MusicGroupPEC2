@@ -494,6 +494,10 @@ img.svg-image {
   transition: opacity 0.3s ease-in-out;
 }
 
+.large-img {
+  height: 100% !important;
+}
+
 .imagen-titulo {
   color: #fff;
   background-color: #000000b3;
