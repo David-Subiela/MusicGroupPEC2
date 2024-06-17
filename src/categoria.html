@@ -48,10 +48,13 @@
                 <li>
                     <a href="/src/detalle_musica.html">
                         <picture>
-                            <source srcset="/media/categoria/albumes.png?as=avif" type="image/avif" />
-                            <source srcset="/media/categoria/albumes.png?as=webp" type="image/webp" />
-                            <source srcset="/media/categoria/albumes.png?as=webp&width=800" type="image/webp" />
-                            <img src="/media/categoria/albumes.png" alt="Álbumes" width="100" height="75"
+                            <source srcset="/media/categoria/albumes.png?as=avif" type="image/avif"
+                                sizes="(max-width: 767px) 100vw, 800px" />
+                            <source srcset="/media/categoria/albumes.png?as=webp" type="image/webp"
+                                sizes="(max-width: 767px) 100vw, 800px" />
+                            <source srcset="/media/categoria/albumes.png?as=webp&width=800" type="image/webp"
+                                sizes="(max-width: 767px) 100vw, 800px" />
+                            <img src="/media/categoria/albumes.png" alt="Álbumes" width="800" height="600"
                                 class="large-img">
                         </picture>
                         <!-- <picture>
