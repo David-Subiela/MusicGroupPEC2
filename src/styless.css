@@ -492,6 +492,7 @@ img.svg-image {
   width: 100%;
   height: auto;
   transition: opacity 0.3s ease-in-out;
+  opacity: 0.7;
 }
 
 .large-img {
