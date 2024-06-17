@@ -548,7 +548,7 @@ img.svg-image {
     padding: 0.4em 0.4em;
   }
   .categoria-enlaces img {
-    width: 80%;
+    width: 75%;
   }
 }
 @media (width < 550px) {
